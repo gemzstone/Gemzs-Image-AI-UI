@@ -43,7 +43,7 @@ const Header = ({ setListImages, setIsLoading }) => {
 
           {/* Form */}
           <form className="relative my-8 max-w-md" onSubmit={handleSubmit}>
-            <input value={inputValue} onChange={handleInputChange} className="indent-2 py-4 pr-[4.5rem] rounded-sm bg-gray-50 w-full md:max-w-md focus:ring-primary outline-none focus:ring-1" type="text" placeholder="Unleash the power of AI to create" />
+            <input value={inputValue} onChange={handleInputChange} className="indent-2 py-4 pr-[4.5rem] rounded-sm bg-gray-50 w-full md:max-w-md focus:ring-primary outline-none focus:ring-1" type="text" placeholder="Type in a text or sentence and AI will generate image" />
             <button type="submit" className="absolute bottom-2.5 right-2.5 bg-primary text-white px-2 py-2 rounded-sm text-sm">
               <ArrowLongRightIcon className="h-6" />
             </button>
